@@ -43,7 +43,6 @@ client.on('guildMemberAdd', member => {
         welcomeEmbed.setColor()
         welcomeEmbed.setAuthor(`${member.guild.name}`)
         welcomeEmbed.setDescription(`به سرور ما خوش آمدید ، امیدوارم که لحظات خوبی داشته باشید │ 
-
 │ Welcome to our server, I hope you have a good time<@${member.user.id}>`)
         welcomeEmbed.setThumbnail(member.user.displayAvatarURL())
          welcomeEmbed.setFooter(`ممبر های سرور${member.guild.memberCount}`)
@@ -57,7 +56,6 @@ welcomeChannel.send(welcomeEmbed)
           welcomeEmbed.setColor()
           welcomeEmbed.setAuthor(`${member.guild.name}`)
           welcomeEmbed.setDescription(`به سرور ما خوش آمدید ، امیدوارم که لحظات خوبی داشته باشید │ 
-
 │ Welcome to our server, I hope you have a good time <@${member.user.id}>`)
           welcomeEmbed.setThumbnail(member.user.displayAvatarURL())
            welcomeEmbed.setFooter(`ممبر های سرور${member.guild.memberCount}`)
@@ -108,7 +106,6 @@ if (!message.member.hasPermission("ADMINISTRATOR"))
           welcomeEmbed3.setAuthor(`welcome test`)
  //   welcomeEmbed.setThumbnail()
    welcomeEmbed3.setDescription(`به سرور ما خوش آمدید ، امیدوارم که لحظات خوبی داشته باشید │ 
-
 │ Welcome to our server, I hope you have a good time ${message.author}`)
    welcomeEmbed3.setFooter(`ممبر های سرور${message.guild.memberCount}`)
           message.channel.send(welcomeEmbed3)
@@ -205,7 +202,6 @@ let targetguild = client.guilds.cache.get("828658962999148584")
    **<a:818185064411955210:831566077263740950>  │ Help**
    
 <a:818177881036947466:831562255392964639> │Bot Prefix = %
-
 <a:818177881036947466:831562255392964639> │Cmd Haye Bot
 <a:818177881036947466:831562255392964639> │%info -> Darbare Shop Losangeles
 <a:818177881036947466:831562255392964639> │%help -> Gereftan Komak Az Bot
@@ -214,20 +210,14 @@ let targetguild = client.guilds.cache.get("828658962999148584")
 <a:818177881036947466:831562255392964639> │%nitro -> Moshakhasat Va Gheimat Nitro
 <a:818177881036947466:831562255392964639> │%stock -> Mojodi Kala Ha
 <a:818177881036947466:831562255392964639> │ %dargah -> Link Dargah Losangeles Shop
-
 <a:ajirrr:830519460904304640> │Cmd Haye Admin Ha ( Faghat Adminstrator's )
 <a:ajirrr:830519460904304640> │%ann -> Ferestadan Payam Announce Az Taraft Bot
 <a:ajirrr:830519460904304640> │%ann1 -> Ferestadan Announce Be Sorat Embed
 <a:ajirrr:830519460904304640> │%clear {tedad} -> Pak Kardan Payam Ha Be tedadi Ke Vared Kardid
-
-
 <a:4312boomer:831515718368624670> │Cmd Haye Music
 <a:4312boomer:831515718368624670> │*play -> Pakhsh Music
-
 <a:loading34:830519772126511164> │ *invite -> invite Dadan Losangeles Shop Bot Be Server Khodeton
-
 <a:5106verifyblack:831513383815217203> │When You Have Problem You Can Open A Ticket
-
 <a:5106verifyblack:831513383815217203> │Agar Moshkeli Dashtid Mitonid Ticket Baz Konid`)
    //welcomeEmbed3.setFooter(`ممبر های سرور${message.guild.memberCount}`)
           message.channel.send(welcomeEmbed3)
@@ -346,7 +336,6 @@ client.on('message', (message) => {
  //   welcomeEmbed.setThumbnail()
    welcomeEmbed3.setDescription(`
 **<a:818185041968365639:831739862369304596> │ Mojodi Kala**
-
 <:OIP:831572458132996177>  │ Anbar Khalie Moteassefane `)
    //welcomeEmbed3.setFooter(`ممبر های سرور${message.guild.memberCount}`)
           message.channel.send(welcomeEmbed3)
@@ -391,4 +380,51 @@ client.on("message", msg => {
     if (msg.content === "hi") {
         msg.inlineReply("hello");
     }
+});   
+
+
+client.on("message", msg => {
+  if (msg.content === "fuck") {
+    msg.reply("fuck you <:fuck:830519161302024234> ");
+  }
+});
+
+client.on("message", msg => {
+  if (msg.content === "!nitro") {
+    msg.reply("bot nitro offe va fekr ham nakonam on beshe <:4352_DiCaprioLaugh:831515836207726613> ")
+  }
+});
+
+
+
+client.on("message", msg => {
+  if (msg.content === "فاک") {
+    msg.reply("fuck you <:fuck:830519161302024234> ")
+  }
+});
+
+
+client.on("message", msg => {
+  if (msg.content === "sik") {
+    msg.reply("<:4352_DiCaprioLaugh:831515836207726613> ")
+  }
+});
+
+client.on("message", msg => {
+  if(msg.content === "sik tir"){
+    msg.reply("<:4352_DiCaprioLaugh:831515836207726613> ")
+  }
+});
+
+
+client.on("message", msg => {
+  if (msg.content === "سیک") {
+    msg.reply("<:4352_DiCaprioLaugh:831515836207726613> ")
+  }
+});
+
+client.on("message", msg => {
+  if (msg.content === "سیک تیر") {
+    msg.reply("<:4352_DiCaprioLaugh:831515836207726613> ")
+  }
 });
